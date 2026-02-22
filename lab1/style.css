@@ -1,23 +1,30 @@
-/* Style 1: Red color */
+body{
+    margin:60px;
+}
+
 .style1 {
-    color: red;
+  color: red;
 }
 
-/* Style 2: Green, 16px, bold, Cambria */
+.container{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
 .style2 {
-    color: green;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: Cambria, serif;
+  color: green;
+  font-size: 16px bold;
+  font-family: 'cambria';
+  
 }
-
-/* Style 3: Font size 14px */
 .style3 {
-    font-size: 14px;
+  font-size: 14px ;
+  
 }
-
-/* Style 4: Image 250x250 */
 .style4 {
-    width: 250px;
-    height: 250px;
+  
+  height: 250px;
+  width: 250px;
+
 }
